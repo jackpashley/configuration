@@ -11,7 +11,7 @@
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
-    colorscheme = "jellybeans"
+    colorscheme = "base16-brewer" #purify
     colorscheme_bg = "dark"
     # Disable guicolors in basic mode, many terminal do not support 24bit
     # true colors
@@ -23,6 +23,11 @@
     buffer_index_type = 4
     enable_tabline_filetype_icon = true
     enable_statusline_mode = false
+
+# misc vim plugins to enable
+[[custom_plugins]]
+  repo = 'RRethy/nvim-base16'
+  merged= 0
 
 # Enable autocomplete layer
 [[layers]]
@@ -44,3 +49,4 @@ name = 'colorscheme'
 
 [[layers]]
   name = "lang#ipynb"
+
